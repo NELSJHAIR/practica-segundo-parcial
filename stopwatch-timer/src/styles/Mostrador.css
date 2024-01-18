@@ -1,0 +1,9 @@
+:root{
+    --font-family: 'Roboto', sans-serif;
+    --text:#02053a; 
+}
+.mostrador {
+    font-family: var(--font-family);
+    color: var(--text);
+    text-align: center;
+}

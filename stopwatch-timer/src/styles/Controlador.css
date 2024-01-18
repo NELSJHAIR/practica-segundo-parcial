@@ -1,0 +1,18 @@
+:root{
+    --back-color1:#42bb9d;
+    --boton:#92a15b;
+    --text:Bahnschrift;
+    --borde:#02053a;
+}
+.controlador {
+    color: var(--back-color);
+    text-align: center;
+}
+button {
+    font-family: var(--text);
+    color: var(--boton);
+    border-radius: 5px;
+    border-color: var(--borde);
+    border-width: 1px;
+    margin: 0 5px 0 5px;
+}
