@@ -1,0 +1,44 @@
+:root{
+    --color-contenedor: #5f7db4;
+    --color-borde-contenedor: #03503d;
+    --color-titulo: #021625;
+    --color-input: #ccc;
+    --color-boton: #083557;
+    --color-boton-texto: #59d199;
+    
+}
+.lista-tareas-container {
+  background-color: var(--color-contenedor);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px var(--color-borde-contenedor);
+  padding: 24px;
+  width: 400px;
+  max-width: 90%;
+}
+
+.lista-tareas-titulo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: var(--color-titulo);
+}
+
+.lista-tareas-input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px var(--color-borde-contenedor);
+  background-color: var(--color-input);
+}
+
+.lista-tareas-boton {
+  padding: 8px 16px;
+  margin-left: 8px;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--color-boton);
+  color: var(--color-boton-texto);
+  font-weight: bold;
+  cursor: pointer;
+}
