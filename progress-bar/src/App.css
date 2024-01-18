@@ -1,0 +1,34 @@
+/*Reescríbelo con variable globales*/
+:root {
+  --back-color1: #d2e288;
+  --back-color2: #94c55c;
+  --text-color: #333;
+  --text: Bahnschrift;
+}
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--back-color);
+}
+h1{
+  font-family: var(--text);
+  color: var(--text-color);
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+.container{
+  width: 70%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.barra{
+     width: 100%;
+     height: 20px;
+     background-color: var(--back-color2); 
+}
+

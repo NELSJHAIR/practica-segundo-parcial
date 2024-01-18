@@ -1,0 +1,14 @@
+/*quiero que el input esté en medio y tenga un redondeo de 10px*/
+.entrada{
+    width: 10%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+/*quiero que entrada-input este en medio*/
+.entrada-input{
+    width: 100%;
+    height: 20px;
+    background-color: lightgray; 
+}
